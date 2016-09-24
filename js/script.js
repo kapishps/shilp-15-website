@@ -1,30 +1,14 @@
 $(document).ready(function () {
-	
-	
-	
-	
 	home_start();
 	function home_start(){
 		
 		var tl = new TimelineMax({delay:0});
 		
-		tl.from('#prepare',1 ,  {force3D:true,transformOrigin:"center 0px", rotationX:90, z:10,ease:Bounce.easeOut});
-		tl.from('#toget', 1.5,  {transformOrigin:"center 100%", rotationX:90, x:0.1,ease:Bounce.easeOut},.2);
-		tl.from('#technexed', 1.5,  { transformOrigin:"center center", rotationY:90,ease:Bounce.easeOut},.4);
-		tl.from('#ribbon1', 1.5,  {x:40, rotationY:-90,ease:Bounce.easeOut},.7);
-		tl.from('#ribbon2', 1.5,  {x:-30, rotationY:-90,ease:Bounce.easeOut},.7);
-		tl.from('#aswe', 2,  { x:-50,rotationX:90,opacity:0,ease:Elastic.easeOut},1);
-		tl.from('#gearup', 1,  {scaleY:0, rotationY:90, x:0.1,ease:Bounce.easeOut},1.4);
-		tl.from('#edition', 1,  {transformOrigin:"center 100%", rotationX:90,ease:Bounce.easeOut},1.8);
 		tl.from('#btn1', .6,  { y:70,rotationX:90,opacity:0,ease:Power1.easeOut},5.1);
 		tl.from('#iit-dept', .6, { x:-30,rotationX:0,opacity:0,ease:Power1.easeOut},5.5);
 		tl.from('#ces-logo', .6,  { x:30,rotationX:0,opacity:0,ease:Power1.easeOut},5.5);
 		tl.from('#pnglogoshilp', 2,  { x:0,rotationX:0,opacity:0,ease:Power0.easenone},5);
-		tl.to('#svg-logo', 2,  { x:0,rotationX:0,opacity:0,ease:Power0.easenone},5);
-		//tl.from('#city_whole',1,{opacity:0,transformOrigin:"center center", ease:Elastic.easeOut.config(1,.6)},2);
-		//tl.set('#city_whole', {opacity:0});
-		//tl.from('#city_whole', 1,  {opacity:0,ease:Power2.easeout},2);
-		
+		tl.to('#svg-logo', 2,  { x:0,rotationX:0,opacity:0,ease:Power0.easenone},5);	
 	}
 	
 	
@@ -56,11 +40,6 @@ $(document).ready(function () {
 	setTimeout(function () {city_w.animate({opacity: 1}, 2000, mina.easeinout);}, 5000);
 	
 	
-	//setTimeout(svg_appear, 3000);
-	//svg_appear();
-	//function svg_appear() {
-	//city_w.animate({opacity: 1},3000,mina.backout);
-	//}
 	
 	var londoneye_rotate = Snap("#rotating");
 	rotateAnimation();
@@ -164,6 +143,5 @@ $(document).ready(function () {
 	function getRandomArbitrary(min, max) {
 	return Math.random() * (max - min) + min;
 	}
-	//s.append(f.select("#city_whole"));
 	});
 	});				
