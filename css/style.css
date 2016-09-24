@@ -46,7 +46,6 @@ body{
 	left:0px;
 	right:0px;
 	top:170px;
-	/*border:solid 1px black;*/
 	text-align:center;
 	margin:auto;
 }
@@ -59,7 +58,6 @@ body{
 	right:30px;
 	top:30px;
 	margin:auto;
-	/*border:solid 1px black;*/
 	
 }
 
@@ -71,7 +69,6 @@ body{
 	bottom:20px;
 	text-align:center;
 	margin:auto;
-	/*border:solid 1px black;*/
 	
 }
 
@@ -82,11 +79,3 @@ body{
 .illlustration{
 	position:absolute; z-index: 1;
 }
-
-
-.home #logo{
-	position:absolute ;
-	max-width: 265px;
-	margin: auto;
-	left: 0px;
-right: 0px;}
