@@ -1,0 +1,92 @@
+/*
+	Creator : Kapish Prasad Singh;
+	Url : www.facebook.com/coolkps;
+	email : coolkps@gmail.com;
+	description :Contains all the styles for index.html;
+*/
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+}
+
+.show {
+    opacity :1;
+    display: block;
+}
+
+.hide{
+    opacity: 0;
+    display: none;
+}
+
+.viewport {
+	display:none;
+	background:#20202a;
+	height: 100%;
+	width:100%;
+	min-height:600px;
+	position:absolute;
+	overflow: hidden;
+}
+
+.home{
+	display:block;	
+	background: #20202a;
+	z-index :10;
+}
+
+.home .content {
+	
+	position:absolute;
+	width:562px;
+	left:0px;
+	right:0px;
+	top:170px;
+	/*border:solid 1px black;*/
+	text-align:center;
+	margin:auto;
+}
+.logos {
+	
+	position:absolute;
+	width:calc(100% - 60px);
+	height:120;
+	left:30px;
+	right:30px;
+	top:30px;
+	margin:auto;
+	/*border:solid 1px black;*/
+	
+}
+
+.footer1 {
+	position:absolute;
+	width:500px;
+	left:0px;
+	right:0px;
+	bottom:20px;
+	text-align:center;
+	margin:auto;
+	/*border:solid 1px black;*/
+	
+}
+
+#svg-logo{
+	position:absolute; top: 15px; left: 0px; z-index: 3;
+}
+
+.illlustration{
+	position:absolute; z-index: 1;
+}
+
+
+.home #logo{
+	position:absolute ;
+	max-width: 265px;
+	margin: auto;
+	left: 0px;
+right: 0px;}
